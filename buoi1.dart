@@ -61,4 +61,18 @@ void main() {
 
   //result , a , b ?
   // print("Result : ${result} , a : ${a} , b : ${b}");
+
+  // 7 : Câu điều kiện
+  // int a = 5;
+  // int b = 10;
+  // if(a > b){
+  //
+  // }else{
+  //
+  // }
+
+  String value = "";
+
+  String result = value.isEmpty ? "Empty" : "Not empty";
+  print(result);
 }
