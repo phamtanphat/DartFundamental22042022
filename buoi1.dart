@@ -108,18 +108,39 @@ void main() {
   //   a++;
   // }
 
-  String name = "";
-  List<String> arr = ["Tèo","Tý","Tủn"];
-  int count = 0;
-  do{
-    print("Chương trình xử lý");
-    if(arr.isNotEmpty && name.isNotEmpty){
-      for(int i = 0 ; i < arr.length ; i++){
-        if(name == arr[i]){
-          print(i);
-        }
-      }
-    }
-    count++;
-  }while(name.isNotEmpty && count < 1);
+  // String name = "";
+  // List<String> arr = ["Tèo","Tý","Tủn"];
+  // int count = 0;
+  // do{
+  //   print("Chương trình xử lý");
+  //   if(arr.isNotEmpty && name.isNotEmpty){
+  //     for(int i = 0 ; i < arr.length ; i++){
+  //       if(name == arr[i]){
+  //         print(i);
+  //       }
+  //     }
+  //   }
+  //   count++;
+  // }while(name.isNotEmpty && count < 1);
+
+  //11 : câu điều kiện switch case
+
+  // bool isMale = true;
+  //
+  // switch (isMale) {
+  //   case true:
+  //     print("Là true");
+  //     break;
+  //   case false:
+  //     print("Là false");
+  //     break;
+  // }
+
+  // bool isError = true;
+
+  // if(isError){
+  //   throw Exception("Lỗi");
+  // }
+
+  // assert(isError == false , "Lỗi");
 }
