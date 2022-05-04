@@ -71,8 +71,55 @@ void main() {
   //
   // }
 
-  String value = "";
+  // String value = "";
+  //
+  // String result = value.isEmpty ? "Empty" : "Not empty";
+  // print(result);
 
-  String result = value.isEmpty ? "Empty" : "Not empty";
-  print(result);
+  // 8 : List
+
+  // List<String> lstNames = ["Tèo","Tý","Tủn"];
+  //
+  // // Thêm
+  // lstNames.add("hoa");
+  // print(lstNames);
+  // // xóa
+  // lstNames.removeAt(0);
+  // print(lstNames);
+  // //sửa
+  // lstNames[0] = "Tuấn";
+  // print(lstNames);
+
+  // 9 Vòng lặp
+  // for(int i = 10 ; i > 0 ; i--){
+  //   if(i % 3 == 0){
+  //     print(i);
+  //     break;
+  //   }
+  // }
+  //
+  // print("Tiếp tục chạy");
+
+  // 10 : do while , while
+
+  // int a = 5;
+  // while(a < 10){
+  //   print(a);
+  //   a++;
+  // }
+
+  String name = "";
+  List<String> arr = ["Tèo","Tý","Tủn"];
+  int count = 0;
+  do{
+    print("Chương trình xử lý");
+    if(arr.isNotEmpty && name.isNotEmpty){
+      for(int i = 0 ; i < arr.length ; i++){
+        if(name == arr[i]){
+          print(i);
+        }
+      }
+    }
+    count++;
+  }while(name.isNotEmpty && count < 1);
 }
