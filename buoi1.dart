@@ -1,3 +1,5 @@
+import 'animal.dart';
+
 void main() {
   // 1 : Kiểu dữ liệu
   // 2 : Khai bao biến
@@ -143,4 +145,27 @@ void main() {
   // }
 
   // assert(isError == false , "Lỗi");
+
+  // tinhTong(0 , 0);
+  // tinhTong(b: 5);
+
+  // Map teo = {
+  //   "name" : "Nguyễn Văn Tèo",
+  //   "age" : 5
+  // };
+  //
+  // print(teo);
+
+  // Object va class
+  Animal cat = Animal(name: "Mimi", weight: 4.3);
 }
+
+// position option parameter
+// void tinhTong([int a = 0, int b = 0]) {
+//   print(a + b);
+// }
+
+// Named option parameter
+// void tinhTong({int a = 0 , int b = 0}) {
+//   print(a + b);
+// }
