@@ -1,4 +1,5 @@
 import 'animal.dart';
+import 'cat.dart';
 
 void main() {
   // 1 : Kiểu dữ liệu
@@ -157,7 +158,16 @@ void main() {
   // print(teo);
 
   // Object va class
-  Animal cat = Animal(name: "Mimi", weight: 4.3);
+  // Animal cat = Animal.instance(name: "Mimi");
+  // cat.eat();
+
+  // Tính kế thừa
+  Cat cat = Cat(name: "Mimi", weight: 4.3);
+  cat.eat();
+  // Tính đóng gói
+  // Tính đa hình
+  // Tính trườu tượng
+  // Quan hệ has A
 }
 
 // position option parameter
