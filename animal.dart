@@ -18,4 +18,16 @@ class Animal {
   void eat(){
     print("$_name is eating");
   }
+
+  double get weight => _weight;
+
+  set weight(double value) {
+    _weight = value;
+  }
+
+  String get name => _name;
+
+  set name(String value) {
+    _name = value;
+  }
 }
