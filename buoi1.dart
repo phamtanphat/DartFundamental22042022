@@ -1,5 +1,7 @@
 import 'animal.dart';
 import 'cat.dart';
+import 'demo/pizza_cheese.dart';
+import 'demo/pizza_store.dart';
 
 void main() {
   // 1 : Kiểu dữ liệu
@@ -162,12 +164,15 @@ void main() {
   // cat.eat();
 
   // Tính kế thừa
-  Cat cat = Cat(name: "Mimi", weight: 4.3);
-  cat.eat();
+  // Cat cat = Cat(name: "Mimi", weight: 4.3);
+  // cat.eat();
   // Tính đóng gói
   // Tính đa hình
   // Tính trườu tượng
   // Quan hệ has A
+
+  PizzaStore pizzaStore = PizzaStore();
+  pizzaStore.orderPizza(PizzaCheese(option: "Bánh đế dày"));
 }
 
 // position option parameter
